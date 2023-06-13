@@ -7,19 +7,49 @@ Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
 
-### Step 2: 
- 
-### Step 3: 
+Use open function to open the file in which we want to copy from and access it in read mode.
 
-### Step 4:  
+### Step 2:
 
-### Step 5: 
+Read the file and store in a variable.
 
-### Step 6: 
+### Step 3:
+
+Now create a new file in which we want to paste the content using write access mode.
+
+### Step 4:
+
+Use write function to copy the read file that has been stored in the variable.
+
+### Step 5:
+
+The content in the original file will be copied in the new file.
+
+### Step 6:
+
+End the program.
 
 ## PROGRAM:
 
+```
+Developed by: DIVAKAR R
+RegisterNumber: 212222240026
+
+with open("sample1.txt", "r") as firstfile:
+    with open("sample2.txt", "a") as secondfile:
+        for line in firstfile:
+            secondfile.write(line)
+            
+```
+
 ### OUTPUT:
+
+
+![output_txt1](https://github.com/divakar618/copy-file/assets/121932143/44e19ee4-872e-4d26-b4b8-608a2055cc7f)
+
+
+![output_txt2](https://github.com/divakar618/copy-file/assets/121932143/e216771e-9032-408b-931f-98f655163094)
+
 
 
 
